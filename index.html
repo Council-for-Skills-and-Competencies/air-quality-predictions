@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Air Quality Prediction</h1>
+        <form id="predict-form">
+            <label>CO: <input type="number" step="any" name="CO" required></label><br>
+            <label>NO2: <input type="number" step="any" name="NO2" required></label><br>
+            <label>SO2: <input type="number" step="any" name="SO2" required></label><br>
+            <label>O3: <input type="number" step="any" name="O3" required></label><br>
+            <label>PM2.5: <input type="number" step="any" name="PM2.5" required></label><br>
+            <label>PM10: <input type="number" step="any" name="PM10" required></label><br>
+            <button type="submit">Predict AQI</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
